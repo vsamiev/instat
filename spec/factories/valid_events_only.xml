@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <events>
+    <event id="200054" action="goal" player_id="9073" half="1" second="337" pos_x="23,9" pos_y="64,7" />
+    <event id="200055" action="free_kick" player_id="3779" half="1" second="350" pos_x="21,9" pos_y="66,7" />
+    <event id="200056" action="foul" player_id="9073" half="1" second="380" pos_x="16,9" pos_y="70,7" />
+    <event id="200057" action="foul" player_id="3779" half="2" second="380" pos_x="36,9" pos_y="40,7" />
+  </events>
+</data>

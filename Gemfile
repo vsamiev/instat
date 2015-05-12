@@ -5,11 +5,29 @@ gem 'rails', '4.2.0'
 
 gem 'rails-api'
 
+gem 'active_model_serializers'
+
+gem 'russian', '~> 0.6.0'
+
+gem 'ruby-units'
+
 gem 'spring', :group => :development
 
+gem 'sidekiq'
 
 gem 'mysql2'
 
+gem 'nori'
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+end
+
+group :test do
+  gem 'rspec-sidekiq'
+  gem 'capybara'
+end
 
 
 # To use ActiveModel has_secure_password
