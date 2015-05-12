@@ -1,28 +1,14 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+RSPEC tests used to test model methods and requests
 
-Things you may want to cover:
+Sidekiq used to import data in async mode in background
 
-* Ruby version
+To respond with player data active model serialization used
 
-* System dependencies
+To translit cyrilic to latin russian gem used
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+some to do work:
+* authentication
+* api versioning
+* if sidekiq pro exists run imports in batch and add interface to check status of import
